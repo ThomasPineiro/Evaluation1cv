@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>C.V PIRAS DE PINTO Johanna</title>
+	<link rel="stylesheet" type="text/css" href="style_cv.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Indie+Flower|Ranga" rel="stylesheet"> 
+</head>
+
+<body>
+	<h1>Développeuse web</h1>
+	<img id="photo" src="images/jo.jpg" alt="Une photo de Johanna">
+	<p id="phrase_accroche">"Je m'appelle Johanna et je suis présidente du monde libre"</p>
+	<div id="div_logos">
+		<img src="images/php.jpg" id="logo_php" alt="ceci est un logo php">
+		<img src="images/html.jpg" class="logos" alt="ceci est un logo html5">
+		<img src="images/css.jpg" class="logos" alt="ceci est un logo css3">
+		<img src="images/js.jpg" id="logo_js" alt="ceci est un logo javascript">
+	</div>
+	<!-- Cette div me permet d'agencer le reste du cv comme un tableau étant donné que je trouvait que le reste
+	du cv correspondait exactement à cette mise en forme avec comme header du tableau la partie précédente, ensuite
+	viennent 4 rangées de 2 cellules chacunes, au final je ne maîtrisait pas cet outil j'ai voulu me lancer dessus je n'aurai pas du étant donné les délai, j'ai perdu beaucoup de temps dessus je suis content d'avoir pu terminer je n'y croyais pas trop -->
+	<div id="tableau">
+		<!-- A chaque fois que je commence un div de classe rangee il faut la voir comme telle (un row du tableau) -->
+		<div class="rangee police">
+			 <!-- A chaque fois que je commence une colonne, elle est spécifiée par les attributs colonne et col_gauche ou col_droite en fonction de sa position, le reste du code n'est pas trop commenté car il s'agit beaucoup de répétitions je ne voit pas trop l'intéret de commenter ce que j'ai déja fait, il n'y a souvent que des petits détails qui changent rien de significatif dans l'ensemble -->
+			<div class="colonne col_gauche">
+				<div id="etat_civil">
+					<ul>
+						<li>Johanna PIRAS DE PINTO</li>
+						<li>Née le 00/00/1987, 29 ans</li>
+						<li>Permis B, véhiculée</li>
+						<li>Nationalité Française</li>
+					</ul> 
+					<p id="adresse"> 3, impasse des écureuils Muret </p>
+				</div>
+			</div>
+			<div class="colonne col_droite">
+				<div>
+					<p class="titres">COMPÉTENCES</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p class="competences">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="rangee police">
+			<div class="colonne col_gauche" id="col_gauche_milieu">
+				<a href="mailto:johanna.jojo@hotmail.fr" id="mail">johanna.jojo@hotmail.fr</a>
+				<div id="div_logos_sociaux">
+					<a href="https://www.facebook.com/">
+					<img src="images/fb.jpg" alt="ceci est un logo facebook" class="logos_sociaux">
+					</a>
+					<a href="https://www.linkedin.com/feed/">
+					<img src="images/linkedin.jpg" alt="ceci est un logo linkedin" class="logos_sociaux">
+					</a>
+					<a href="https://github.com/JohannaPIRAS">
+					<img src="images/github.jpg" alt="ceci est un logo github" class="logos_sociaux">
+					</a>
+				</div>
+			</div>
+			<div class="colonne col_droite">
+				<div id="formation">
+					<p class="titres">FORMATION</p>
+					<p class="paragraphe">Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit?
+					</p>
+					<p class="texte_descriptif">Intitulé, durée <br> Contenu, point marquant <br> Diplôme obtenu.
+				</div>
+			</div>
+		</div>
+		<div class="rangee police">
+			<div class="colonne" id="centres_interet">
+				<ul id="liste_centres_interet">
+					<li>J'aime le sport</li>
+					<li>J'aime regarder des tutos sur youtube</li>
+					<li>Lorem ipsum</li>
+					<li>Lorem ipsum</li>
+				</ul>
+			</div>
+			<div class="colonne col_droite">
+				<p class="titres">PROJETS</p>
+				<p class="paragraphe">Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit?
+				</p>
+				<p class="texte_descriptif">Fonction, nom de projet, entreprise <br> Liens</p>
+			</div>
+		</div>
+		<div class="police rangee">
+			<div class="colonne" id="telecharger">
+				<a href="images/cvJohanna.pdf" id="telecharger_cv">Télécharger le c.v</a>
+			</div>
+			<div class="colonne col_droite">
+				<p class="titres">EXPÉRIENCES PROFESSIONNELLES</p>
+				<p class="paragraphe">Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit?
+				</p>
+				<p class="texte_descriptif">Intitulé de poste</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

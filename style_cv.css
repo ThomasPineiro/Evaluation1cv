@@ -1,0 +1,199 @@
+@font-face
+{
+	font-family: "indie_flower";
+	src: url('polices/IndieFlower.ttf');
+}
+
+.police
+{
+	font-family: 'Cormorant Garamond', serif;
+	color: black;
+	font-size: 20px;
+}
+
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+h1
+{
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	color: #c73333;
+	margin-left: 45vw;
+}
+
+ /* p_a_l signifie photo accroche logo, c'est la partie qui gère le 'header' du tableau */
+#bandeau_p_a_l
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#photo
+{
+	width: 200px;
+	float: left;
+	padding-left: 25px;
+}
+
+#phrase_accroche
+{
+	font-family: 'Ranga', cursive;
+	font-size: 30px;
+	color: #c06f6f;
+	padding-left: 40vw; /* j'utilise un padding car le text center align ne centre pas correctement*/
+	padding-top: 10px;
+}
+
+#div_logos
+{
+	padding-left: 35vw;
+	margin-top: 50px;
+}
+
+/* Les logos du php et du js ne sont pas dans la même classe car il n'ont pas les mêmes dimensions de base que
+celles du html css */
+.logos
+{
+	width: 110px;
+	margin-left: 75px;
+}
+
+#logo_php
+{
+	width: 110px; /* Chiffre magique pour mettre à l'échelle le logo php par rapport aux autres */
+	margin-bottom: 20px;
+}
+ #logo_js
+ {
+ 	margin-left: 75px;
+ 	width: 80px; /* Idem que pour le logo_php*/
+ }
+
+/*Cette partie du code va concerner le reste du cv organisé en tableau*/
+#tableau
+{
+	display: table;
+	width: 100%;
+	padding-top: 30px;
+}
+
+/*Je ne sais pas si j'aurai pu enlever cette classe au final il ne reste que cet attribut en commun aux
+deux colonnes */
+.colonne
+{
+	display: table-cell;
+}
+
+.titres
+{
+	font-family: 'Ranga', cursive;
+	font-size: 30px;
+	color: #c06f6f;
+	text-align: center;
+}
+
+/*J'ai regroupé tout le css concernant la colonne de gauche en dessous, j'ai fait pareil pour l'autre colonne*/
+.col_gauche
+{
+	width: 30vw;
+}
+
+li
+{
+	padding-top: 20px;
+}
+
+#adresse
+{
+	padding-top: 30px;
+	padding-left: 22px;
+}
+
+#mail
+{
+	color: black;
+	padding: 15px;	
+	border: 2px solid black;
+	border-radius: 12px;
+	margin: 75px;
+}
+
+#col_gauche_milieu
+{
+	padding-top: 30px;
+}
+
+.logos_sociaux
+{
+	width: 40px;
+	margin-left: 55px;
+}
+
+#div_logos_sociaux
+{
+	display: block;
+	padding-top: 95px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#centres_interet
+{
+	vertical-align: middle;
+}
+
+#telecharger_cv
+{
+	padding: 30px;
+	margin-left: 70px;
+	border: 2px solid black;
+	border-radius: 12px;
+	color: black;
+}
+
+#telecharger
+{
+	vertical-align: middle;
+}
+
+/* colonne de droite*/
+.col_droite
+{
+	width: 70vw;
+}
+
+.competences
+{
+	word-wrap: break-word;
+	display: inline-block;
+	width: 11vw;
+}
+
+.paragraphe
+{
+	word-wrap: break-word;
+	display: inline-block;
+	width: 30vw;
+}
+
+.texte_descriptif
+{
+	word-wrap: break-word;
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+}
+
+/* Ici est regroupé le css concernant les différentes rangées, au final cette partie est moins importante que ce 
+je pensais je me fait la même réflexion que pour la classe colonne  */
+.rangee
+{
+	display: table-row;
+}
